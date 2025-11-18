@@ -7,7 +7,7 @@ To run the Tracking System (Flask + MongoDB Atlas) properly, you need to install
 ### Step 1 — Create a `requirements.txt`
 
 ```bash
-touch requirements.txt
+nano requirements.txt
 ```
 
 ### Step 2 — Add the following content to `requirements.txt`:
