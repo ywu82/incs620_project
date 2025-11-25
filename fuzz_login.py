@@ -7,7 +7,7 @@ USERNAME = "bob2025@outlook.com"
 PASSWORD = "bob2025"
 
 # Read track_id list
-with open("list.txt", "r") as f:
+with open("track_ids.txt", "r") as f:
     track_ids = [line.strip() for line in f.readlines() if line.strip()]
 
 print(f"Loaded {len(track_ids)} track IDs.")
