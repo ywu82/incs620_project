@@ -49,7 +49,7 @@ dnspython
 pip install -r requirements.txt
 ```
 
-## Fuzzing
+# Fuzzing Attack
 
 ### Step 1 - Get API and payload via browser
 
