@@ -1,5 +1,5 @@
 import { LivixElement, createStore } from "/component/livix-core.js";
-import { CONST } from "./const.js";
+import { CONST } from "./loginConst.js";
 
 // Optional: Global store (currently a placeholder, can be used later for SPA)
 export const trackStore = createStore({
