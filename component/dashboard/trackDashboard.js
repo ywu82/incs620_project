@@ -1,6 +1,6 @@
 // component/dashboard/trackDashboard.js
 import { LivixElement } from "/component/livix-core.js";
-import { CONST } from "./const.js";
+import { CONST } from "./dashboardConst.js";
 
 // Dashboard Component
 class TrackDashboard extends LivixElement {
