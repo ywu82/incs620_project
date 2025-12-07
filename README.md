@@ -22,7 +22,7 @@ incs620_project/
 └── track_ids.txt
 ```
 
-🔧 ** Front-End Framework (Personal Project) **
+🔧 **Front-End Framework (Personal Project)**
 
 If you are interested in the front-end framework used in this project, feel free to follow and explore my personal front-end framework repository:
 
