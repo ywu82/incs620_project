@@ -107,3 +107,21 @@ run command
 python3 fuzz_login.py
 ```
 
+# Fix Description
+
+To address the lack of access control in the original service (server.py), the fixed version (server_fix.py) introduces a dedicated access control module implemented in access_control_models.py.
+
+⚠️ Important Notes
+
+Before running server_fix.py, please make sure that server.py has been completely stopped.
+
+All security fixes and access control logic have already been integrated into server_fix.py.
+
+No additional code modification is required. Simply run the fixed server as shown below.
+
+**Run the Fixed Server**
+
+```bash
+python3 server_fix.py
+```
+
