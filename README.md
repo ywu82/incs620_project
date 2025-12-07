@@ -22,6 +22,14 @@ incs620_project/
 └── track_ids.txt
 ```
 
+🔧 ** Front-End Framework (Personal Project) **
+
+If you are interested in the front-end framework used in this project, feel free to follow and explore my personal front-end framework repository:
+
+https://github.com/allen-shielder/LivixJS
+
+This project is currently under active development, and more features and documentation will be added in the future.
+
 
 # INCS 620 OSS Final Project Demostration
 
