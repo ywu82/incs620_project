@@ -1,4 +1,29 @@
-# INCS 620 OSS Project Demostration
+# Download Code
+the path will be like:
+```bash
+oss_project/
+├── component/
+│   ├── dashboard/
+│   │   ├── dashboard.html
+│   │   ├── dashboardConst.js
+│   │   ├── trackDashboard.css
+│   │   └── trackDashboard.js
+│   ├── login/
+│   │   ├── login.html
+│   │   ├── loginConst.js
+│   │   ├── trackLogin.css
+│   │   └── trackLogin.js
+│   └── livix-core.js
+├── README.md
+├── access_control_models.py
+├── fuzz_login.py
+├── server.py
+├── server_fixed.py
+└── track_ids.txt
+```
+
+
+# INCS 620 OSS Final Project Demostration
 
 ## Dependency installation for the Tracking System
 
