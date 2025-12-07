@@ -1,7 +1,7 @@
 # Download Code
 the path will be like:
 ```bash
-oss_project/
+incs620_project/
 ├── component/
 │   ├── dashboard/
 │   │   ├── dashboard.html
