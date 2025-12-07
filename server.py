@@ -14,6 +14,7 @@ client = MongoClient(MONGO_URI)
 db = client["project"]
 users_col = db["user"]
 orders_col = db["order"]
+admin_col = db["admin"]
 
 @app.route("/login", methods=["GET"])
 def login_page():
@@ -35,13 +36,21 @@ def login_api():
 
     if not track_id:
         return jsonify({"success": False, "msg": "Tracking ID cannot be empty"}), 400
-
-    user = users_col.find_one({
+    
+    user = admin_col.find_one({
         "name": username,
         "password": password
     })
 
     if not user:
+        
+        user = users_col.find_one({
+            "name": username,
+            "password": password
+        })
+
+    if not user:
+ 
         return jsonify({"success": False, "msg": "Incorrect username or password"}), 401
 
     order = orders_col.find_one({"orderId": track_id})
