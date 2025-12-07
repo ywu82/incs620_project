@@ -1,5 +1,5 @@
 # Download Code
-the path will be like:
+The project path will be like:
 ```bash
 incs620_project/
 ├── component/
